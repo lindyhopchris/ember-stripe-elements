@@ -1,5 +1,6 @@
-let StripeMock = function(publishableKey) {
+let StripeMock = function(publishableKey, options = null) {
   this.publishableKey = publishableKey;
+  this.options = options;
 }
 
 StripeMock.prototype.elements = function() {
